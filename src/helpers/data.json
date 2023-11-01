@@ -1,0 +1,33 @@
+{
+  "mainData": {
+    "whatIDo": [
+      "Front End developer",
+      "Back End Developer",
+      "Web Programmer",
+      "Excel Developer"
+    ],
+    "proyectsAndPractices": [
+      {
+        "type": "practice",
+        "name": "Estilos CSS",
+        "image": "/src/images/estilosCss.png",
+        "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo HTML y CSS",
+        "url": "https://"
+      },
+      {
+        "type": "practice",
+        "name": "Java Script",
+        "image": "/src/images/javaScript.png",
+        "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo Java Script",
+        "url": "https://"
+      },
+      {
+        "type": "practice",
+        "name": "DOM",
+        "image": "/src/images/javaScript.png",
+        "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo Java Script",
+        "url": "https://"
+      }
+    ]
+  }
+}
