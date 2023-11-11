@@ -11,6 +11,7 @@ const $prevBtn = d.getElementById("practices-prev-btn");
 const $nextBtn = d.getElementById("practices-next-btn");
 const $title = d.getElementById("practices-title");
 const $image = d.getElementById("practices-image");
+const $link = d.getElementById("practices-link");
 const $body = d.getElementById("practices-description");
 /************ FIN *************************/
 const $menu = d.querySelector(".menu");
@@ -25,11 +26,11 @@ d.addEventListener("click", (e) => {
   e.stopPropagation();
 
   if (e.target.matches("#practices-prev-btn")) {
-    practice = carrousel("back", $title, $image, $body, data, practice);
+    practice = carrousel("back", $title, $image, $body, $link, data, practice);
   }
 
   if (e.target.matches("#practices-next-btn")) {
-    practice = carrousel("next", $title, $image, $body, data, practice);
+    practice = carrousel("next", $title, $image, $body, $link, data, practice);
   }
 
   if (e.target.matches(".btn-menu")) {
