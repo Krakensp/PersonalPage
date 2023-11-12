@@ -17,10 +17,17 @@ const $body = d.getElementById("practices-description");
 const $menu = d.querySelector(".menu");
 const $btn = d.querySelector(".hamburger-btn");
 
-d.addEventListener(
-  "DOMContentLoaded",
-  resortJson("what-i-do", data.mainData.whatIDo)
-);
+d.addEventListener("DOMContentLoaded", (e) => {
+  resortJson("what-i-do", data.mainData.whatIDo);
+  $title.innerText =
+    data.mainData.proyectsAndPractices[0].name +
+    " (" +
+    data.mainData.proyectsAndPractices[0].type +
+    ")";
+  $image.src = data.mainData.proyectsAndPractices[0].image;
+  $body.innerText = data.mainData.proyectsAndPractices[0].description;
+  $link.href = data.mainData.proyectsAndPractices[0].url;
+});
 
 d.addEventListener("click", (e) => {
   e.stopPropagation();

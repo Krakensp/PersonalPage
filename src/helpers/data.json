@@ -8,6 +8,27 @@
     ],
     "proyectsAndPractices": [
       {
+        "type": "proyect",
+        "name": "Invitación y sistema de control de XV años",
+        "image": "src/images/invitacion.png",
+        "description": "Sistema de control de invitados vinculado a invitación digital en la cual se confirma o rechaza la asistencia y se agrega el nombre de los acompañantes del invitado, Se usó HTML CSS JavaScript para el FrontEnd; Node con Express para el BackEnd y MongoDB para la Base de datos ",
+        "url": "https://powerful-hare-pea-coat.cyclic.app/"
+      },
+      {
+        "type": "proyect",
+        "name": "Freaky",
+        "image": "src/images/freaky.png",
+        "description": "Página de video streaming con animaciones interactivas 3D de fondo, Se usó HTML,CSS y JavaScript junto con la libreria THREE JS",
+        "url": "https://www.freaky.mx/video.html"
+      },
+      {
+        "type": "proyect",
+        "name": "TO DO List",
+        "image": "src/images/todoList.png",
+        "description": "Lista de pendientes que genera nuevas listas con solo agregar en la url proncipal una diagonal mas el nombre que se le quiere dar a la lista . Se uso HTML,CSS y JavaScript para el FrontEnd; Node con Express para el BackEnd y MongoDB para la base de datos",
+        "url": "https://cerulean-earthworm-wear.cyclic.app/"
+      },
+      {
         "type": "practice",
         "name": "Estilos CSS",
         "image": "/src/images/javaScript.jpg",
@@ -20,20 +41,63 @@
         "image": "/src/images/javaScript.jpg",
         "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo Java Script",
         "url": "https://"
+      }
+    ],
+    "knowled": [
+      {
+        "type": "FrontEnd",
+        "name": "Java Script",
+        "porcentage": "80"
       },
       {
-        "type": "practice",
-        "name": "DOM",
-        "image": "/src/images/javaScript.jpg",
-        "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo Java Script",
-        "url": "https://"
+        "type": "FrontEnd",
+        "name": "HTML",
+        "porcentage": "85"
       },
       {
-        "type": "proyect",
-        "name": "Freaky",
-        "image": "src/images/freaky.png",
-        "description": "Página de video streaming con animaciones interactivas 3D de fondo, Se usó HTML,CSS y JavaScript junto con la libreria THREE JS",
-        "url": "https://www.freaky.mx/video.html"
+        "type": "FrontEnd",
+        "name": "CSS",
+        "porcentage": "80"
+      },
+      {
+        "type": "FrontEnd",
+        "name": "React",
+        "porcentage": "70"
+      },
+      {
+        "type": "FrontEnd",
+        "name": "Bootstrap",
+        "porcentage": "70"
+      },
+      {
+        "type": "FrontEnd",
+        "name": "THREE JS",
+        "porcentage": "30"
+      },
+      {
+        "type": "BackEnd",
+        "name": "Node",
+        "porcentage": "60"
+      },
+      {
+        "type": "BackEnd",
+        "name": "PHP",
+        "porcentage": "40"
+      },
+      {
+        "type": "BackEnd",
+        "name": "Java",
+        "porcentage": "38"
+      },
+      {
+        "type": "DataBases",
+        "name": "MongoDB",
+        "porcentage": "20"
+      },
+      {
+        "type": "DataBases",
+        "name": "MySQL",
+        "porcentage": "30"
       }
     ]
   }

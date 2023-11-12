@@ -120,9 +120,11 @@ li {
 .proyect {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-color: var(--color-secondary-opacity40);
   padding: 1rem 2rem;
   position: relative;
+  height: inherit;
 }
 
 .proyects-btn {
