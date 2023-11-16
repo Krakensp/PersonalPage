@@ -2,6 +2,7 @@ import data from "./src/helpers/data.json" assert { type: "json" };
 import resortJson from "./src/modules/resortJson.js";
 import carrousel from "./src/modules/carrousel.js";
 import menu from "./src/modules/menu.js";
+import getKnowled from "./src/modules/knowledContent.js";
 
 const d = document;
 let practice = 0;
@@ -13,9 +14,15 @@ const $title = d.getElementById("practices-title");
 const $image = d.getElementById("practices-image");
 const $link = d.getElementById("practices-link");
 const $body = d.getElementById("practices-description");
-/************ FIN *************************/
+/************ MENU VARIABLES *************************/
 const $menu = d.querySelector(".menu");
 const $btn = d.querySelector(".hamburger-btn");
+/*********** KNOWLEDS VARIABLES*************************/
+
+// const $backEndBtn = d.getElementById("front-end-btn");
+// const $frontEndBtn = d.getElementById("front-end-btn");
+const $knowleds = d.getElementById("knowled-content");
+
 
 d.addEventListener("DOMContentLoaded", (e) => {
   resortJson("what-i-do", data.mainData.whatIDo);
@@ -42,5 +49,9 @@ d.addEventListener("click", (e) => {
 
   if (e.target.matches(".btn-menu")) {
     menu($menu, $btn);
+  }
+
+  if(e.target.matches(".table-btn")){
+    getKnowled(data.mainData.knowled,e.target.dataset.knowled,$knowleds)
   }
 });

@@ -45,57 +45,57 @@
     ],
     "knowled": [
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "Java Script",
         "porcentage": "80"
       },
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "HTML",
         "porcentage": "85"
       },
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "CSS",
         "porcentage": "80"
       },
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "React",
         "porcentage": "70"
       },
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "Bootstrap",
         "porcentage": "70"
       },
       {
-        "type": "FrontEnd",
+        "type": "front-end",
         "name": "THREE JS",
         "porcentage": "30"
       },
       {
-        "type": "BackEnd",
+        "type": "back-end",
         "name": "Node",
         "porcentage": "60"
       },
       {
-        "type": "BackEnd",
+        "type": "back-end",
         "name": "PHP",
         "porcentage": "40"
       },
       {
-        "type": "BackEnd",
+        "type": "back-end",
         "name": "Java",
         "porcentage": "38"
       },
       {
-        "type": "DataBases",
+        "type": "databases",
         "name": "MongoDB",
         "porcentage": "20"
       },
       {
-        "type": "DataBases",
+        "type": "databases",
         "name": "MySQL",
         "porcentage": "30"
       }

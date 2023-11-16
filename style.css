@@ -54,10 +54,10 @@ li {
 /************** GENERAL STYLES *************/
 
 .container {
-  padding: 1rem;
-  margin: 0 auto;
+  padding: 3rem 0;
+  margin: auto 0;
   max-width: 1080px;
-  height: calc(100vh - 4rem);
+  height: 100vh;
   /* background-color: var(--color-main); */
   background: var(--color-main);
   background: var(--main-gradient);
@@ -77,10 +77,10 @@ li {
 /************** HEADER *********************/
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background-color: var(--color-secondary);
   padding: 0.5rem;
   z-index: 997;
@@ -89,7 +89,7 @@ li {
 .header-content {
   margin: 0 auto;
   width: 100%;
-  height: 3rem;
+  height: 2.5rem;
   background: var(--color-overflow);
   background: var(--overflow-gradient);
 }
@@ -103,7 +103,7 @@ li {
 
 .socials a img {
   transition: all 0.5s ease-out;
-  height: 2.3rem;
+  height: 1.7rem;
 }
 
 .socials a:hover {
@@ -112,25 +112,34 @@ li {
 /************** INTRO **********************/
 
 .profile-img {
-  width: 80%;
+  width: 60%;
 }
 
 /************** PROYECTS *******************/
 
 .proyect {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: var(--color-secondary-opacity40);
-  padding: 1rem 2rem;
-  position: relative;
-  height: inherit;
+  text-align: justify;
+  padding: 5.5rem 3rem;
+  height: 100vh;
+  width: 100%;
 }
 
+.proyect a{
+  max-height: 60%;
+}
+
+.proyect a img{
+  max-height: 100%;
+}
 .proyects-btn {
-  width: 2rem;
-  height: 2rem;
   position: absolute;
+  width: 2rem;
+ /* height: 2rem;*/
   border: none;
   border-radius: 50%;
   top: calc(50% - 2rem);
@@ -145,43 +154,68 @@ li {
 }
 
 .prev-btn {
-  left: 0;
+  left: 5px;
 }
 
 .next-btn {
-  right: 0;
+  right: 5px;
 }
 
 /************** KNOWLEDS ******************/
 
 .know-table {
-  text-align: left;
+  margin: 0, auto;
+  width: 100%;
 }
 
 .table-btn {
   border: none;
-  padding: 0.3rem;
   color: var(--white);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: var(--color-secondary-opacity60);
 }
 
+.table-buttons{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: flex;
+  align-items: start;
+}
 .btn-is-active {
-  font-size: 1.05rem;
+  /* font-size: 1.05rem; */
   background-color: var(--color-secondary);
   color: var(--color-action);
 }
 
 .table-content {
-  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--color-overflow-opacity60);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 1rem;
+  height: 40vh;
 }
 
+#knowled-content{
+  text-align: left;
+  margin: 0 auto;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#knowled-content li{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 /************** FOOTER ********************/
 
 .top-btn {
@@ -205,8 +239,8 @@ li {
 /************** MENU *********************/
 
 .menu {
-  position: absolute;
-
+  position: fixed;
+  top: 0;
   z-index: 999;
   width: 100%;
   height: 100vh;
