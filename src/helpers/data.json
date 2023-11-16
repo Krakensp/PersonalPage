@@ -31,14 +31,14 @@
       {
         "type": "practice",
         "name": "Estilos CSS",
-        "image": "/src/images/javaScript.jpg",
+        "image": "src/images/javaScript.jpg",
         "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo HTML y CSS",
         "url": "https://"
       },
       {
         "type": "practice",
         "name": "Java Script",
-        "image": "/src/images/javaScript.jpg",
+        "image": "src/images/javaScript.jpg",
         "description": "En ésta práctica se realizaron varios estilos de diseño y presentacion usando solo Java Script",
         "url": "https://"
       }
