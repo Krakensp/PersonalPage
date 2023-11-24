@@ -34,6 +34,9 @@ d.addEventListener("DOMContentLoaded", (e) => {
   $image.src = data.mainData.proyectsAndPractices[0].image;
   $body.innerText = data.mainData.proyectsAndPractices[0].description;
   $link.href = data.mainData.proyectsAndPractices[0].url;
+
+  getKnowled(data.mainData.knowled,"front-end",$knowleds)
+  
 });
 
 d.addEventListener("click", (e) => {
