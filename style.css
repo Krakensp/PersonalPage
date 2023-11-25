@@ -48,13 +48,10 @@ img {
   height: auto;
 }
 
-li {
-  list-style: none;
-}
 /************** GENERAL STYLES *************/
 
 .container {
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   margin: auto 0;
   max-width: 1080px;
   height: 100vh;
@@ -64,15 +61,21 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  text-align: center;
   align-items: center;
   font-family: "Ubuntu", sans-serif;
+  text-align: justify;
 }
 
 .container h2 {
   font-family: "Libre Baskerville", serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
 /************** HEADER *********************/
 
 .header {
@@ -114,12 +117,9 @@ li {
   width: 60%;
 }
 
-#intro p{
-  margin: .3rem;
-  text-align: justify;
-
+#intro p {
+  margin: 0.3rem;
 }
-
 
 /************** PROYECTS *******************/
 
@@ -129,28 +129,28 @@ li {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: var(--color-secondary-opacity40);
-  text-align: justify;
   padding: 5.5rem 3rem;
   height: 100vh;
   width: 100%;
 }
 
-.proyect a{
+.proyect a {
   max-height: 60%;
 }
 
-.proyect a img{
+.proyect a img {
   max-height: 100%;
 }
 .proyects-btn {
+  font-size: 1.2rem;
   position: absolute;
-  width: 2rem;
- /* height: 2rem;*/
+  margin: 0;
+  padding: 0;
   border: none;
-  border-radius: 50%;
+
   top: calc(50% - 2rem);
   cursor: pointer;
-  background-color: var(--white);
+
   transition: all 0.3s ease-in-out;
 }
 
@@ -181,14 +181,14 @@ li {
   border-top-right-radius: 5px;
   background-color: var(--color-secondary-opacity60);
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.table-btn:hover{
+.table-btn:hover {
   background-color: var(--color-action);
 }
 
-.table-buttons{
+.table-buttons {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -196,7 +196,6 @@ li {
   align-items: start;
 }
 .btn-is-active {
-  /* font-size: 1.05rem; */
   background-color: var(--color-secondary);
   color: var(--color-action);
   cursor: auto;
@@ -214,26 +213,37 @@ li {
   height: 40vh;
 }
 
-#knowled-content{
+#knowled-content {
   padding: 0 10%;
-  margin: 0 auto ;
-  height:100%;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#knowled-content li{
+#knowled-content li {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
-.star{
+.star {
   color: gold;
 }
+
+/************** EXPERIENCE *****************/
+
+.experience {
+  font-size: 1rem;
+}
+
+.experience ul {
+  padding-left: 1rem;
+}
+
 /************** FOOTER ********************/
 
 .top-btn {
